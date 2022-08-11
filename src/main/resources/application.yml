@@ -1,0 +1,13 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: utku
+    password: utku
+
+
+rmq:
+  name:
+    queue: sample-queue
+    routing: sample-routing
+    exchange: sample-exchange
